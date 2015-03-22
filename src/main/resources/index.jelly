@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin enables a project to trigger itself recursively after the configured delay.
+</div>

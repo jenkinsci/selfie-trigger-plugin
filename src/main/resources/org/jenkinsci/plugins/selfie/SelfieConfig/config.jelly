@@ -1,0 +1,8 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <j:invokeStatic var="descriptor"
+      className="org.jenkinsci.plugins.selfie.SelfieConfig"
+      method="getClassDescriptor"/>
+  <f:entry title="Delay" field="delay">
+    <f:textbox value="${it.delay}"/>
+  </f:entry>
+</j:jelly>
