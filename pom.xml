@@ -9,9 +9,8 @@
     <relativePath />
   </parent>
 
-  <groupId>org.jenkinsci.plugins</groupId>
   <artifactId>selfie-trigger-plugin</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Selfie - Build trigger plugin</name>
@@ -34,8 +33,8 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+    <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}.git</developerConnection>
     <url>http://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <tag>selfie-trigger-plugin-1.0</tag>
   </scm>
